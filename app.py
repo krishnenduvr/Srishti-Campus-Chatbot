@@ -120,17 +120,14 @@ elif page == "💼 Placement":
 
 elif page == "🤖 Chat Bot":
     st.write("💬 Welcome! Ask me anything about Srishti Campus.")
+    from chatbot import get_bot_response
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
     user_message = st.text_input("Type your message:")
     if st.button("Ask Bot"):
         if user_message.strip() != "":
             st.session_state.chat_history.append(("You", user_message))
-            try:
-                response = requests.post("http://127.0.0.1:5000/chat", json={"message": user_message})
-                bot_reply = response.json()["response"]
-            except:
-                bot_reply = "⚠️ Unable to connect to chatbot server."
+            bot_reply = get_bot_response(user_message)
             st.session_state.chat_history.append(("Bot", bot_reply))
     st.subheader("💬 Chat with Bot:")
     for sender, message in st.session_state.chat_history:
@@ -153,3 +150,4 @@ st.sidebar.markdown("""
 - 📒 Automation Testing  
 - 📔 Robotics
 """)
+
