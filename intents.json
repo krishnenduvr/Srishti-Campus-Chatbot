@@ -1,0 +1,241 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","hi", "Hello","hello", "Hey","hey", "Good morning","good morning", "Good evening","good evening"],
+      "responses": ["Hello! Welcome to Srishti Campus. How can I help you today?"]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": ["What courses are available?", "List the programs", "Tell me about courses","what courses are offered","Which courses are available","What programs do you offer"],
+      "responses": ["Srishti Campus offers Python Course, Django, Software Testing, Web Designing, business-analysis, PHP Crash Course, Java Frameworks Course, Data Science Using Python Course, Manual Testing, MySQL"]
+    },
+    {
+      "tag": "Python Course",
+      "patterns": [
+        "Tell me about Python Course",
+        "Details of Python Course",
+        "What is Python Course?",
+        "Explain Python Course",
+        "do you have python Course"],
+      "responses": ["Yes, We offer Python Course. For more information,please contact us at +91-9778639922 ,+91-9744010829"]
+    },
+     {
+      "tag": "digital_marketing",
+      "patterns": [
+        "Tell me about Digital Marketing",
+        "Details of Digital Marketing",
+        "What is Digital Marketing course?",
+        "Explain Digital Marketing",
+        "do you have digital marketing course"
+      ],
+      "responses": [
+        "Yes, We offer digital_marketing. For more information,please contact us at +91-9778639922 ,+91-9744010829"]
+    },
+    {
+      "tag": "Django",
+      "patterns": [
+        "Tell me about Django",
+        "Details of Django",
+        "What is Django?",
+        "Explain Django",
+        "do you have Django"
+      ],
+      "responses": [
+        "Yes, We offer Django Course. For more information,please contact us at +91-9778639922 ,+91-9744010829"]
+    },
+    {
+      "tag": "PHP Crash Course",
+      "patterns": [
+        "Tell me about PHP Crash Course",
+        "Details of PHP Crash Course",
+        "What is PHP Crash Course?",
+        "Explain PHP Crash Course",
+        "do you have PHP Crash Course"
+      ],
+      "responses": [
+        "Yes, We offer PHP Crash Course. For more information,please contact us at +91-9778639922 ,+91-9744010829."]
+    },
+    {
+      "tag": "Software Testing",
+      "patterns": [
+        "Tell me about Software Testing",
+        "Details of Software Testing",
+        "What is Software Testing course?",
+        "Explain Software Testing",
+        "do you have Software Testing"
+      ],
+      "responses": [
+        "Yes, We offer Software Testing. For more information,please contact us at +91-9778639922 ,+91-9744010829."]
+    },
+    {
+      "tag": "Web Designing",
+      "patterns": [
+        "Tell me about Web Designing",
+        "Details of Web Designing",
+        "What is Web Designing?",
+        "Explain Web Designing",
+        "do you have Web Designing"
+      ],
+      "responses": [
+        "Yes,We offer Web Designing. For more information,please contact us at +91-9778639922 ,+91-9744010829."
+      ]
+    },
+    {
+      "tag": "business-analysis",
+      "patterns": [
+        "Tell me about business-analysis",
+        "what is business-analysis",
+        "Explain business-analysis",
+        "Details of business-analysis"
+        ],
+      "responses": ["Yes,We offer Web Designing. For more information,please contact us at +91-9778639922 ,+91-9744010829."]
+    },
+    {
+      "tag": "Java Frameworks Course",
+      "patterns": [
+        "Tell me about Java Frameworks Course",
+        "what is Java Frameworks Course",
+        "Explain Java Frameworks Course",
+        "Details of Java Frameworks Course"
+      ],
+      "responses": ["Yes,We offer Java Frameworks Course. For more information,please contact us at +91-9778639922 ,+91-9744010829."
+
+      ]
+    },
+    {
+      "tag": "Data Science Using Python Course",
+      "patterns": [
+        "Tell me about Data Science Using Python",
+        "what is Data Science Using Python",
+        "Explain Data Science Using Python",
+        "Details of Data Science Using Python"
+      ],
+      "responses": ["Yes,We offer Data Science Using Python Course. For more information,please contact us at +91-9778639922 ,+91-9744010829."]
+    },
+    {
+      "tag": "Manual Testing",
+      "patterns": [
+        "Tell me about Manual Testing",
+        "What is Manual Testing",
+        "Explain Manual Testing",
+        "Details of Manual Testing"
+      ],
+      "responses": ["Yes,We offer Manual Testing. For more information,please contact us at +91-9778639922 ,+91-9744010829."]
+    },
+    {
+      "tag": "MySQL",
+      "patterns": [
+         "what is mysql",
+         "tell me about mysql",
+         "mysql course",
+         "mysql details",
+         "mysql training",
+         "learn mysql",
+         "sql database course"
+      ],
+      "responses": ["Yes,We offer MySQL. For more information,please contact us at +91-9778639922 ,+91-9744010829."]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How to apply for admission?", "Admission process", "How to join?","how can i apply for admission","how can i get admission"],
+      "responses": ["You can apply online through the Srishti Campus website or visit the admission office."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact Srishti Campus?", "Give me contact details", "Phone number?","please provide the contact details","can you share the contact information"],
+      "responses": ["You can reach us at +91-9778639922,+91-9744010829 or email srishticampusteam@srishtis.com."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye","bye","good bye"],
+      "responses": ["Goodbye! Have a great day!"]
+    },
+    {
+      "tag": "ask_fees",
+      "patterns": [
+      "What is the fee?",
+      "How much do I need to pay?",
+      "tell me about fees",
+      "fees",
+      "Tell me the tuition cost",
+      "What is the price of the course?",
+      "Give me the fee details"],
+      "responses": ["Our fees vary depending on the course and duration. Please contact us at +91-9778639922 ,+91-9744010829 for exact details."]
+},
+
+    {
+      "tag": "placement",
+      "patterns": [
+          "Do you provide placements?",
+          "Is there job assistance?",
+          "Are placements available?",
+          "do you offer placement opportunities",
+          "what about the placement"
+        ],
+      "responses": ["Yes, Srishti Campus offers placement assistance with leading IT companies and startups. Our placement cell helps with interview preparation and job referrals."]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "who are the trainers?",
+        "tell me about the faculty",
+        "tell me about the trainer",
+        "are your trainers experienced?",
+        "who will be the trainers",
+        "Who are the instructors"
+      ],
+      "responses": [
+        "Srishti Campus trainers are industry experts with 5 years of experience in software development, data science, and IT training."]
+    },
+    {
+      "tag": "mode_of_class",
+      "patterns": [
+        "Is the class online or offline?",
+        "Do you offer online classes?",
+        "Are classes conducted offline?",
+        "Mode of classes",
+        "How are classes held?"
+      ],
+      "responses": ["Srishti Campus offers both online and offline classes. You can choose your preferred mode of learning based on your convenience."]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "What is the duration of the course?",
+        "How long does the course take?",
+        "Course duration",
+        "can you tell me course duration",
+        "what is the length of the course"
+      ],
+      "responses": ["Most Srishti Campus courses range from 3 to 6 months, depending on the program and your learning pace."]
+    },
+    {
+      "tag": "about_srishti",
+      "patterns": [
+        "tell me about Srishti Campus",
+        "What is Srishti Campus?",
+        "Information about Srishti Campus",
+        "About the institute",
+        "Give me details about Srishti Campus",
+        "where is srishti campus located",
+        "mission of srishti campus",
+        "details about the campus",
+        "overview of srishti campus",
+        "background of srishti campus"
+      ],
+        "responses": [
+          "Srishti Campus is a premier educational institution dedicated to providing quality training in IT, management, and emerging technologies.",
+          "Located in Technopark Trivandrum, Srishti Campus focuses on hands-on learning, industry-ready projects, and 24/7 support for students."]
+      },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "sorry, I didn’t understand that. Could you please rephrase?",
+        "I’m not sure about that. Try asking about courses, admissions, or contact info."
+      ]
+    }
+  ]
+}
