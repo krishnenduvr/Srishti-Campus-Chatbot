@@ -155,6 +155,7 @@
       "What is the fee?",
       "How much do I need to pay?",
       "tell me about fees",
+      "fees"
       "Tell me the tuition cost",
       "What is the price of the course?",
       "Give me the fee details"],
@@ -235,3 +236,4 @@
     }
   ]
 }
+
