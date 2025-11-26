@@ -1,0 +1,521 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","hi", "Hello","hello", "Hey","hey", "Good morning","good morning", "Good evening","good evening"],
+      "responses": ["Hello! Welcome to Srishti Campus. How can I help you today?"]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": ["What courses are available?", "List the programs", "Tell me about courses","what courses are offered","Which courses are available","What programs do you offer"],
+      "responses": ["Srishti Campus offers Python Course, Java, Software Testing, Web Designing Course, Mean_stack, MySQL, Digital Marketing, Android Full Stack, Datascience_using_python"]
+    },
+    {
+      "tag": "python_course",
+      "patterns": [
+      "Python",
+      "Tell me about Python Course",
+      "Details of Python Course",
+      "What is Python Course?",
+      "Python training program",
+      "Explain Python Course",
+      "Do you have Python Course"],
+      "responses": [
+      "Our Python course covers a wide range of topics:\n\n1. Introduction to Python: Installation, variables, operators, blocks\n2. Python Data Types: int, float, complex, strings, lists, tuples, dictionaries, sets\n3. Program Flow Control: if/else, for loops, while loops, break/continue\n4. Functions, Modules & Packages: organizing code, importing modules, lambda functions\n5. String, List & Dictionary Manipulations: built-in methods and operations\n6. Object-Oriented Programming: classes, objects, constructors, inheritance, polymorphism\n7. Exception Handling: safe coding practices, file operations\n8. File Operations: read/write files, config/log handling\n9. Regular Expressions: sequences, quantifiers, special characters\n10. GUI Development: root window, fonts, colors, widgets\n11. Database Connectivity: PostgreSQL installation, SQL basics\n12. Data Science with Python: DataFrames, visualization (bar, histogram, pie, line charts)\n\nCourses are designed by industry professionals to help you land the best jobs.\nOur customized Python package allows you to explore countless possibilities in the technology domain.\n\nWould you like to know about fees, duration, or placement support?"]
+    },
+    {
+      "tag": "java_course",
+      "patterns": [
+      "java",
+      "Tell me about Java Course",
+      "Details of Java Course",
+      "What is Java Course?",
+      "Explain Java Course",
+      "Do you have Java Course"],
+      "responses": [
+      "Our Java course covers a wide range of topics:\n\nIntroduction – what is Java, importance of Java, implementation, applications, sample programs, lexical issues\n\nData Types & Operators: variables, constants, literals, scope, type casting, arithmetic, relational, logical, assignment, increment/decrement, conditional, bitwise, dot operators\n\nControl Structures: if-else, loops (while, do-while, for), break, continue, return, switch, arrays (1D & 2D), strings and string methods\n\nClasses, Objects & Methods: defining classes, adding variables/methods, creating objects, constructors, 'this' keyword, garbage collection, finalize(), inheritance, abstract classes, visibility control (public, protected, private)\n\nInheritance: member access, super class, multilevel hierarchy, method overloading & overriding, abstract methods, using final to prevent overriding, object class\n\nPackages & Interfaces: defining packages, access protection, importing packages, defining interfaces\n\nException Handling: exception types, multiple catch clauses, nested try, throw/throws/finally, built-in exceptions, custom exception subclasses\n\nPolymorphism: method overloading and overriding\n\nMultithreaded Programming: creating threads, run() method, thread lifecycle (newborn, runnable, running, blocked, dead), synchronization, thread priority, exceptions\n\nUtilize our Java classes to learn the basics of programming and advanced concepts with hands-on practice.\n\nWould you like to know about fees, duration, or placement support?"]
+    },
+    {
+      "tag": "software_testing",
+      "patterns": [
+      "software testing",
+      "Tell me about Software Testing Course",
+      "Details of Software Testing Course",
+      "What is Software Testing?",
+      "Explain Software Testing Course",
+      "Do you have Software Testing training"],
+      "responses": [
+      "Our Software Testing course covers:\n\nSDLC Life Cycle\nDocumentation Preparation\nTest Case Preparation\nHow to conduct testing\nHow to test a website\nHow to test a Mobile App\nHow to prepare Project Scope\n\nWe provide online and offline training covering software testing techniques and best practices. Software testing offers one of the most promising careers, and our training courses in India include both manual and automation testing with experienced faculty.\n\nAs a software tester, you can expect to work in a dynamic and challenging environment ensuring the quality of software products. Srishti Campus, India's best software training institute, provides hands-on experience with several prominent tools.\n\nWould you like to know about fees, duration, or placement support?"]
+    },
+    {
+      "tag": "web_design",
+      "patterns": [
+      "web desigining",
+      "Tell me about Web Designing Course",
+      "Details of Web Designing Course",
+      "What is Web Designing?",
+      "Explain Web Designing Course",
+      "Do you have Web Designing training"],
+      "responses": [
+      "Our Web Designing course covers:\n\nHTML (Basic Tags, Forms, HTML5)\nCSS (Properties, Styling)\nBootstrap framework\nJavaScript (Introduction, Variables, Functions, Looping, Conditional Statements, Validation)\nGraphic Design Software: Photoshop & CorelDraw\n\nThis course helps you build strong design skills and advance your career in web development. Would you like to know about fees, duration, or placement support?"]
+    },
+    {
+     "tag": "mean_stack",
+     "patterns": [
+     "mean stack",
+     "Tell me about MEAN Stack Course",
+     "Details of MEAN Stack Course",
+     "What is MEAN Stack?",
+     "Explain MEAN Stack Course",
+     "Do you have MEAN Stack training"],
+     "responses": [
+     "Our MEAN Stack course covers MongoDB, Express.js, Angular, and Node.js:\n\nMongoDB: Benefits of document-based databases, installation, CRUD operations\n\nNode.js: Introduction & foundation, installing NodeJS, executing scripts, Node Package Manager, package.json, global vs local packages, automating tasks with Gulp, HTTP protocol, building servers, REST, Express framework, connecting to MongoDB, CRUD operations\n\nNodeJS Projects: Creating projects, package.json configuration, package installation\n\nHTTP: Building servers, rendering responses, processing query strings, REST, TLS configuration\n\nExpress.js: Routing, router setup, route parameters, handling form/query data, actions, Handlebars, REST, middleware, database connectivity\n\nAngular: Getting started, Angular 2 basics, TypeScript vs JavaScript, data types & variables, installing Angular, configuration, creating projects with CLI, modules, components, templates, metadata, data binding, directives (attribute & structural), services, dependency injection, bootstrap integration, NgIf, NgFor, NgSwitch, NgStyle, NgClass, services & async promises, JSON server CRUD, advanced dependency injection, data binding (interpolation, property, event, attribute, class, style, two-way binding, ngModel), template-driven & model-driven forms, validation, routing (imperative, child, parameters)\n\nThis end-to-end stack is highly popular for modern web development. At Srishti Campus, our expert faculty provide corporate training and 100% placement assistance. The MEAN Stack course equips you with skills in MongoDB, Express.js, Angular, Node.js, HTML, JavaScript, and GIT to build full-stack applications.\n\nWould you like to know about fees, duration, or placement support?"]
+      },
+     {
+      "tag": "mysql",
+      "patterns": [
+      "mysql",
+      "Tell me about MySQL Course",
+      "Details of MySQL Course",
+      "What is MySQL?",
+      "Explain MySQL Course",
+      "Do you have MySQL training"],
+      "responses": [
+       "Our MySQL course covers:\n\n- What is a database and why we need SQL\n- How to create tables\n- SQL Data Types\n- Primary Keys\n- Null values and Not Null values\n- Auto Increment\n- DDL and DML\n- Using the WHERE clause\n- Joins: Inner Join, Left Join, Full Outer Join\n\nLearning MySQL helps you understand how database management systems work and prepares you for real-world applications.\n\nWould you like to know about fees, duration, or placement support?"]
+       },
+      {
+       "tag": "online_training",
+       "patterns": [
+       "Tell me about Online Training",
+       "Details of Online Training",
+       "What is Online Training?",
+       "Explain Online Training",
+       "Do you have Online Training programs"],
+       "responses": [
+       "Srishti Campus offers Online Software Training in multiple fields:\n\n- Web development in PHP and .NET\n- Mobile app development in Android & iOS\n- Hybrid App Development\n- Web Frameworks\n\nWe provide job-oriented online training, internships, academic project assistance with documentation, and live project experiences to help learners polish their careers. The program is designed to create professionals who meet industry demand.\n\nHighlights:\n- 100% job placement support\n- Business Analysis training\n- Manual Testing expertise\n- Python for data handling\n- Internet of Things (IoT) modules\n- Digital Marketing certification\n- JavaScript & HTML training\n- Automation Testing with industry experts\n\nWould you like to know about fees, duration, or placement support?"]
+        },
+       {
+      "tag": "academic_projects",
+      "patterns": [
+      "Tell me about Academic Projects",
+      "Details of Academic Projects",
+      "What are Academic Projects?",
+      "Explain Academic Projects",
+      "Do you provide Academic Project assistance"],
+      "responses": [
+      "Srishti Campus provides project-based training on required technologies and guides students to develop or customize their own projects. Through our training methodology, learners gain expertise in research and development within specific domains, increasing their self-knowledge.\n\nAcademic projects are often the first step toward understanding real-time processes in the engineering industry. Being thorough with learning and training is essential when working on such projects.\n\nExamples of projects include:\n- Public transportation systems with vehicle number input\n- Location-based services using iBeacon for shops\n- Speech communication and natural language projects\n- Robots controlled via Android apps\n- Secure social media communication projects\n\nSrishti Campus offers full assistance in academic projects, ensuring students gain practical exposure and confidence.\n\nWould you like to know about fees, duration, or placement support?"]
+      },
+      {
+       "tag": "digital_marketing",
+       "patterns": [
+       "digital marketing",
+       "Tell me about Digital Marketing Course",
+       "Details of Digital Marketing Course",
+       "What is Digital Marketing?",
+       "Explain Digital Marketing Course",
+       "Do you have Digital Marketing training"],
+       "responses": [
+       "Our Digital Marketing course covers:\n\n- Basics of Internet\n- Introduction to Digital Marketing\n- Understanding Basics of HTML\n- What are Keywords\n- Keyword Research with Google Planner\n- How to select a Domain Name\n- Naming of Pages and Folders\n- Using pictures effectively for Digital Marketing\n- Building a successful career in Digital Marketing\n- SEO (Search Engine Optimization)\n- SEM (Search Engine Marketing)\n- SMM (Social Media Marketing)\n- SEO Tools\n\nThis course equips you with practical skills to grow your career in the digital space. Would you like to know about fees, duration, or placement support?"]
+       },
+       {
+        "tag": "android_full_stack",
+        "patterns": [
+        "android full stack",
+        "Tell me about Android Full Stack Course",
+        "Details of Android Full Stack Course",
+        "What is Android Full Stack?",
+        "Explain Android Full Stack Course",
+        "Do you have Android Full Stack training"],
+        "responses": [
+        "Our Android Full Stack course covers:\n\nANDROID INTRODUCTION\n- Role of Java and XML\n- Versions and Features\n- Application Areas\n- Basic Programs\n- Android Architecture and Features\n- Installation, ADT Plugin and SDK\n\nGETTING STARTED\n- Introduction to Android Studio\n- First Android Application\n\nAPPLICATION AND ACTIVITIES\n- Creating applications and activities\n- Application Manifest\n- Android Application Life Cycle\n- Application class, folders and usage\n\nUSER INTERFACE AND WIDGETS\n- Fundamental UI Design\n- Layouts and Views\n- Drawable Resources\n- Types of Layouts\n- Widgets\n\nBUILDING BLOCKS\n- Activity, Intent, Fragment, Content Provider, Broadcast Receiver, Service, Manifest, View\n\nBASIC OPERATIONS\n- Intents (implicit/explicit)\n- Menus (context, popup)\n- List Activity, Spinner\n- Toast & Custom Toast\n- Dialogues\n\n2D ANIMATIONS\n- Frame by Frame Animation\n- Tween Animation\n\nFILES, STATES & PREFERENCES\n- Creating and saving preferences\n- Retrieving shared preferences\n\nCOMMUNICATION WITH SERVER\n- Async HTTP, JSON parsing\n- API Parsing with Retrofit, Volley, Gson Converter\n\nCONTENT PROVIDERS\n- Using and Reading Content Providers\n\nWORKING IN BACKGROUND\n- Services, Notifications\n\nTELEPHONY & SMS\n- Incoming/outgoing calls\n- Telephony Manager\n\nMAPS & LOCATION SERVICES\n- Maps and GPS\n- Map API key setup\n- Geocoding, Location Providers, Listeners, Overlay\n\nBROADCAST RECEIVERS & INTERNET\n- Internet Resources\n- Dialogs\n- Broadcast Receivers (customized)\n\nCUSTOMIZATIONS\n- Custom List/Grid Views, Dialogs, Layouts, Action Bar, Toolbar\n\nSENSORS\n- Proximity, Accelerometer, Gyroscope\n\nFRAGMENTS\n- Fragment Life Cycle, Managers, Transactions\n- Navigation Drawers, Tab Bars, Card View, Recycler View, Carousel View, Floating Action Button, Pull to Refresh, Snack Bar\n\nINTEGRATIONS\n- Google and Facebook\n\nTHIRD PARTY LIBRARIES\n- Picasso, Butter Knife, Zxing, Google Play Services\n\nDATABASE\n- SQLite with SQLiteOpenHelper\n- Cursors and Content Values\n- ROOM Persistence\n- Firebase Authentication, Firestore, Realtime Database\n\nLATEST VERSION FEATURES\n- Navigation Graph\n- Resource Manager\n- MySQL (Table Creation, DDL, DML)\n\nThis Full Stack Android App Development course is designed for those who want to start app development and boost their career.\n\nWould you like to know about fees, duration, or placement support?"]
+         },
+       {
+       "tag": "datascience_using_python",
+       "patterns": [
+        "datascience using python",
+        "Tell me about DataScience using Python Course",
+        "Details of Data Science using Python",
+        "What is Data Science using Python?",
+        "Explain Data Science using Python Course",
+        "Do you have Data Science using Python training"],
+        "responses": [
+        "Our Data Science using Python course covers:\n\n1. Introduction to Data Science\n2. Need for Data Science\n3. What is Data Science\n4. Data Science Life Cycle and more\n\nBecome a fully trained professional with the guidance of expert faculty at Srishti Campus. We provide both online and offline programs designed to open career opportunities for IT enthusiasts.\n\nHighlights:\n- Conceptual learning to build expertise and a strong resume\n- Training in interpreting, maintaining, and analyzing data across the full data life cycle\n- Live classes with perks for aspiring data scientists and analysts\n- Internship and Certificate courses for practical exposure\n- Customized Python package to explore countless possibilities in the technology domain\n\nCourses are designed by industry professionals to help you land the best jobs.\n\nWould you like to know about fees, duration, or placement support?"]
+        },
+
+    {
+      "tag": "admission",
+      "patterns": ["admission","How to apply for admission?", "Admission process", "How to join?","how can i apply for admission","how can i get admission"],
+      "responses": ["You can apply online through the Srishti Campus website at https://www.srishticampus.com/ or visit the admission office."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact Srishti Campus?", "Give me contact details", "Phone number?","please provide the contact details","can you share the contact information"],
+      "responses": ["You can reach us at +91-9778639922,+91-9744010829 or email srishticampusteam@srishtis.com."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye","bye","good bye"],
+      "responses": ["Goodbye! Have a great day!"]
+    },
+    {
+  "tag": "python_fees",
+  "patterns": [
+    "Python course fee",
+    "python fees",
+    "Python training cost",
+    "Cost of Python course",
+    "How much for Python?",
+    "Python tuition fee"
+  ],
+  "responses": [
+    "Our Python course fees vary depending on batch type and duration. Please contact us at +91-9778639922 , +91-9744010829 for exact details."
+  ]
+},
+{
+  "tag": "java_fees",
+  "patterns": [
+    "Java course fee",
+    "Fee for Java course",
+    "Java training cost",
+    "java fees",
+    "How much for Java?"
+  ],
+  "responses": [
+    "Our Java course fees depend on the batch schedule and duration. Please contact us at +91-9778639922 , +91-9744010829 for exact details."
+  ]
+},
+{
+  "tag": "software_testing_fees",
+  "patterns": [
+    "Software Testing course fee",
+    "Fee for Software Testing",
+    "Testing training cost",
+    "software testing fees",
+    "How much for Software Testing?"
+  ],
+  "responses": [
+    "Our Software Testing course fees vary depending on whether you choose manual or automation batches. Please contact us at +91-9778639922 , +91-9744010829 for exact details."
+  ]
+},
+{
+  "tag": "web_design_fees",
+  "patterns": [
+    "Web Designing course fee",
+    "Fee for Web Designing",
+    "web designing fees",
+    "Web Design training cost",
+    "How much for Web Designing?"
+  ],
+  "responses": [
+    "Our Web Designing course fees depend on batch type and duration. Please contact us at +91-9778639922 , +91-9744010829 for exact details."
+  ]
+},
+{
+  "tag": "mean_stack_fees",
+  "patterns": [
+    "MEAN Stack course fee",
+    "Fee for MEAN Stack",
+    "mean stack fees",
+    "MEAN training cost",
+    "How much for MEAN Stack?"
+  ],
+  "responses": [
+    "Our MEAN Stack course fees vary depending on the batch schedule. Please contact us at +91-9778639922 , +91-9744010829 for exact details."
+  ]
+},
+{
+  "tag": "mysql_fees",
+  "patterns": [
+    "MySQL course fee",
+    "Fee for MySQL course",
+    "MySQL training cost",
+    "mysql fees",
+    "How much for MySQL?"
+  ],
+  "responses": [
+    "Our MySQL course fees depend on batch type and duration. Please contact us at +91-9778639922 , +91-9744010829 for exact details."
+  ]
+},
+{
+  "tag": "digital_marketing_fees",
+  "patterns": [
+    "Digital Marketing course fee",
+    "Fee for Digital Marketing",
+    "digital marketing fees",
+    "Digital Marketing training cost",
+    "How much for Digital Marketing?"
+  ],
+  "responses": [
+    "Our Digital Marketing course fees vary depending on batch schedule and duration. Please contact us at +91-9778639922 , +91-9744010829 for exact details."
+  ]
+},
+{
+  "tag": "android_full_stack_fees",
+  "patterns": [
+    "Android Full Stack course fee",
+    "Fee for Android Full Stack",
+    "Android training cost",
+    "antroid full stack fees",
+    "How much for Android Full Stack?"
+  ],
+  "responses": [
+    "Our Android Full Stack course fees depend on batch type and duration. Please contact us at +91-9778639922 , +91-9744010829 for exact details."
+  ]
+},
+{
+  "tag": "datascience_using_python_fees",
+  "patterns": [
+    "Data Science using Python course fee",
+    "Fee for Data Science course",
+    "Data Science training cost",
+    "data science fees",
+    "How much for Data Science using Python?"
+  ],
+  "responses": [
+    "Our Data Science using Python course fees vary depending on batch schedule and duration. Please contact us at +91-9778639922 , +91-9744010829 for exact details."
+  ]
+},
+    {
+      "tag": "placements",
+      "patterns": [
+      "Tell me about Placements",
+      "placement",
+      "Placements",
+      "Details of Placements",
+      "Do you provide placement support?",
+      "Explain the placement process",
+      "How does Srishti Campus help with jobs?"],
+      "responses": [
+      "At Srishti Campus, placements are more than just job assistance — they are a complete career journey:\n\n1. **Skill Development**: We help you build add-on skills such as aptitude, attitude, and resume preparation.\n2. **Personalized Guidance**: Our team understands your skills and career goals to tailor opportunities for you.\n3. **Industry Connections**: Using our network and matching tools, we identify job openings that fit your aspirations.\n4. **Application Support**: We guide you through interview preparation, applications, and job placement.\n5. **Ongoing Assistance**: Even after placement, we continue to support you as you transition into your new role.\n\nYour success is our priority. Many of our students have shared their inspiring placement journeys, highlighting how our support helped them achieve their career goals."]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "who are the trainers?",
+        "faculty",
+        "trainer",
+        "tell me about the faculty",
+        "tell me about the trainer",
+        "are your trainers experienced?",
+        "who will be the trainers",
+        "Who are the instructors"],
+      "responses": [
+        "Srishti Campus trainers are industry experts with 5 years of experience in software development, data science, and IT training."]
+    },
+    {
+      "tag": "mode_of_class",
+      "patterns": [
+        "Is the class online or offline?",
+        "Do you offer online classes?",
+        "Are classes conducted offline?",
+        "Mode of classes",
+        "How are classes held?"
+      ],
+      "responses": ["Srishti Campus offers both online and offline classes. You can choose your preferred mode of learning based on your convenience."]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "What is the duration of the course?",
+        "How long does the course take?",
+        "Course duration",
+        "can you tell me course duration",
+        "what is the length of the course"
+      ],
+      "responses": ["Most Srishti Campus courses range from 3 to 6 months, depending on the program and your learning pace."]
+    },
+    {
+  "tag": "about",
+  "patterns": [
+    "Tell me about Srishti Campus",
+    "Details about Srishti Campus",
+    "What is Srishti Campus?",
+    "Explain about Srishti Campus",
+    "Give me information about Srishti Campus"
+  ],
+  "responses": [
+    "Srishti Campus is an ISO 9001:2008 certified corporate training wing of Srishti Innovative Computer Systems Pvt. Ltd., located in Technopark, Kerala. As a sister concern of Srishti Innovative, it serves as a premier training hub delivering industry-ready engineers in various technologies.\n\nWe specialize in training across multiple domains including web development (PHP, .NET), mobile app development (Android & iOS), and modern IT solutions. Our programs are designed with an end-to-end life cycle of technology learning, design, development, delivery, and assessment, supported by experienced mentors.\n\nHighlights:\n- Over a decade of excellence in industrial-oriented training (since 2007)\n- 100% placement achievement since 2016\n- Hands-on labs, instructor-led courses, libraries, seminars, and workshops\n- Delivered skilled professionals to more than 70 companies in and around Kerala\n- Programs tailored for freshers, working professionals, and career switchers\n\nWe believe every student who joins Srishti Campus embarks on a path toward exponential career growth. With clear-cut curriculum and industry experts as mentors, our training empowers learners to manage projects efficiently and stay updated with the latest technological advancements."
+  ]
+},
+{
+  "tag": "course_details",
+  "patterns": [
+    "Yes",
+    "Yes please",
+    "Tell me",
+    "I want to know",
+    "Sure"
+  ],
+  "responses": [
+    "Here are the details:\n\n**Fees**: Contact our admission team for the latest fee structure.\n**Duration**: Typically 3–6 months depending on the batch.\n**Placement Support**: 100% assistance including resume building, interview prep, and job connections."
+  ]
+},
+{
+  "tag": "course_skip",
+  "patterns": [
+    "No",
+    "NO",
+    "Not now",
+    "Maybe later",
+    "No thanks"
+  ],
+  "responses": [
+    "No problem! You can always ask me about fees, duration, or placement support whenever you’re ready."
+  ]
+},
+{
+  "tag": "scholarship",
+  "patterns": [
+    "Do you provide scholarships?",
+    "Are there any discounts?",
+    "Scholarship",
+    "Financial aid options",
+    "Scholarship details",
+    "scholarship"
+  ],
+  "responses": [
+    "We occasionally offer scholarships and discounts based on merit and special batches. Please contact our admission team for current offers."
+  ]
+},
+{
+  "tag": "python_certification",
+  "patterns": [
+    "Python certification",
+    "Python certificate",
+    "Do you provide Python certificate?",
+    "Certification for Python course",
+    "Python course certificate"
+  ],
+  "responses": [
+    "Yes, our Python course comes with industry-recognized certification upon successful completion. This certificate strengthens your resume and career profile."
+  ]
+},
+{
+  "tag": "java_certification",
+  "patterns": [
+    "Java certification",
+    "Java certificate",
+    "Do you provide Java certificate?",
+    "Certification for Java course",
+    "Java course certificate"
+  ],
+  "responses": [
+    "Yes, our Java course includes industry-recognized certification once you successfully complete the training. It adds strong value to your career opportunities."
+  ]
+},
+{
+  "tag": "software_testing_certification",
+  "patterns": [
+    "Software Testing certification",
+    "Testing certificate",
+    "Do you provide Software Testing certificate?",
+    "Certification for Software Testing course",
+    "Software Testing course certificate"
+  ],
+  "responses": [
+    "Yes, our Software Testing course provides industry-recognized certification upon completion, helping you stand out in QA and testing roles."
+  ]
+},
+{
+  "tag": "web_design_certification",
+  "patterns": [
+    "Web Designing certification",
+    "Web Design certificate",
+    "Do you provide Web Designing certificate?",
+    "Certification for Web Designing course",
+    "Web Designing course certificate"
+  ],
+  "responses": [
+    "Yes, our Web Designing course comes with certification that validates your design and development skills for career growth."
+  ]
+},
+{
+  "tag": "mean_stack_certification",
+  "patterns": [
+    "MEAN Stack certification",
+    "MEAN certificate",
+    "Do you provide MEAN Stack certificate?",
+    "Certification for MEAN Stack course",
+    "MEAN Stack course certificate"
+  ],
+  "responses": [
+    "Yes, our MEAN Stack course includes certification upon successful completion, proving your expertise in full-stack development."
+  ]
+},
+{
+  "tag": "mysql_certification",
+  "patterns": [
+    "MySQL certification",
+    "MySQL certificate",
+    "Do you provide MySQL certificate?",
+    "Certification for MySQL course",
+    "MySQL course certificate"
+  ],
+  "responses": [
+    "Yes, our MySQL course provides certification that validates your database management skills and boosts your career profile."
+  ]
+},
+{
+  "tag": "digital_marketing_certification",
+  "patterns": [
+    "Digital Marketing certification",
+    "Digital Marketing certificate",
+    "Do you provide Digital Marketing certificate?",
+    "Certification for Digital Marketing course",
+    "Digital Marketing course certificate"
+  ],
+  "responses": [
+    "Yes, our Digital Marketing course comes with certification that highlights your expertise in SEO, SEM, and online marketing strategies."
+  ]
+},
+{
+  "tag": "android_full_stack_certification",
+  "patterns": [
+    "Android Full Stack certification",
+    "Android certificate",
+    "Do you provide Android Full Stack certificate?",
+    "Certification for Android Full Stack course",
+    "Android Full Stack course certificate"
+  ],
+  "responses": [
+    "Yes, our Android Full Stack course provides certification upon completion, showcasing your skills in mobile app development."
+  ]
+},
+{
+  "tag": "datascience_using_python_certification",
+  "patterns": [
+    "Data Science using Python certification",
+    "Data Science certificate",
+    "Do you provide Data Science certificate?",
+    "Certification for Data Science using Python course",
+    "Data Science using Python course certificate"
+  ],
+  "responses": [
+    "Yes, our Data Science using Python course includes certification that validates your expertise in data analysis and machine learning."
+  ]
+},
+
+{
+  "tag": "batch_timings",
+  "patterns": [
+    "What are the batch timings?",
+    "Class schedule",
+    "Training hours",
+    "When are classes conducted?",
+    "batch timing"
+  ],
+  "responses": [
+    "We offer flexible batch timings including weekdays, weekends, and evening sessions."
+  ]
+},
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "sorry, I didn’t understand that. Could you please rephrase?",
+        "I’m not sure about that. Try asking about courses, admissions, or contact info."
+      ]
+    }
+  ]
+}
