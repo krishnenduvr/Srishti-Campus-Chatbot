@@ -23,7 +23,7 @@
       "Do you have Python Course"],
       "responses": [
       "Our Python course covers a wide range of topics:\n\n1. Introduction to Python: Installation, variables, operators, blocks\n2. Python Data Types: int, float, complex, strings, lists, tuples, dictionaries, sets\n3. Program Flow Control: if/else, for loops, while loops, break/continue\n4. Functions, Modules & Packages: organizing code, importing modules, lambda functions\n5. String, List & Dictionary Manipulations: built-in methods and operations\n6. Object-Oriented Programming: classes, objects, constructors, inheritance, polymorphism\n7. Exception Handling: safe coding practices, file operations\n8. File Operations: read/write files, config/log handling\n9. Regular Expressions: sequences, quantifiers, special characters\n10. GUI Development: root window, fonts, colors, widgets\n11. Database Connectivity: PostgreSQL installation, SQL basics\n12. Data Science with Python: DataFrames, visualization (bar, histogram, pie, line charts)\n\nCourses are designed by industry professionals to help you land the best jobs.\nOur customized Python package allows you to explore countless possibilities in the technology domain.\n\nWould you like to know about fees, duration, or placement support?"]
-     },
+    },
     {
       "tag": "java_course",
       "patterns": [
@@ -519,4 +519,5 @@
     }
   ]
 }
+
 
