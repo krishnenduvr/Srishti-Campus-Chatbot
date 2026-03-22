@@ -30,6 +30,12 @@ WELCOME_MESSAGE = (
 )
 
 
+def safe_rerun() -> None:
+    rerun_fn = getattr(st, "rerun", None) or getattr(st, "experimental_rerun", None)
+    if rerun_fn is not None:
+        rerun_fn()
+
+
 def inject_styles() -> None:
     st.markdown(
         """
@@ -562,11 +568,11 @@ def render_chatbot() -> None:
         st.session_state.chat_history.append({"role": "user", "content": prompt.strip()})
         bot_reply = fetch_bot_reply(prompt.strip())
         st.session_state.chat_history.append({"role": "assistant", "content": bot_reply})
-        st.experimental_rerun()
+        safe_rerun()
 
     if st.button("Clear conversation"):
         st.session_state.chat_history = [{"role": "assistant", "content": WELCOME_MESSAGE}]
-        st.experimental_rerun()
+        safe_rerun()
 
 
 def render_sidebar() -> str:
